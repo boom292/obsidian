@@ -14,5 +14,7 @@ Before the introduction of compositing window managers, _stacking window manage
 
 I'm not much into games, but it is my understanding that they typically use the display in full-screen mode. In this case the compositor is not very relevant, and the compositor may even be disabled altogether.
 
+currently, picom is giving so many issues :L
+
 # References
 https://unix.stackexchange.com/questions/359257/what-is-a-compositor-in-general-and-which-gives-the-best-performance-ubuntu
