@@ -365,6 +365,20 @@ CSS has the ability to change the background of an element. One option is to mak
 - `height`
 - `opacity`
 - `border` in the format `width color style`
+- `border-radius`: this takes in either percentage or `px`.
+- `padding`: this can take all four (below) spaced.
+- `padding-top`
+- `padding-right`
+- `padding-bottom`
+- `padding-left`
+- `margin`: same as padding syntaxally.
+- `min-height`
+- `min-width`
+- `max-height`
+- `max-width`
+- `overflow`
+- `overflow-x`
+- `overflow-y`
 - 
 
 ### Important
@@ -395,4 +409,190 @@ Browsers load HTML elements with default position values. This often leads to an
 If you have used HTML and CSS, you have unknowingly seen aspects of the [box model](https://www.codecademy.com/resources/docs/css/box-model). For example, if you have set the background color of an element, you may have noticed that the color was applied not only to the area directly behind the element but also to the area to the right of the element. Also, if you have aligned text, you know it is aligned relative to something. What is that something?
 
 All elements on a web page are interpreted by the browser as “living” inside of a box. This is what is meant by the box model.
+
+# Changing the Box Model
+### Why Change the Box Model?
+
+The box model has an awkward limitation regarding box dimensions. This limitation is best illustrated with an example.
+
+```html
+<h1>Hello World</h1>
+```
+
+```css
+h1 {
+	border: 1px solid black;
+	height: 200px;
+	width: 300px;
+	padding: 10px;
+}
+```
+
+In the example above, a heading element’s box has solid, black, 1 pixel thick borders. The height of the box is 200 pixels, while the width of the box is 300 pixels. A padding of 10 pixels has also been set on all four sides of the box’s content.
+
+Unfortunately, under the current box model, the border thickness and the padding will affect the dimensions of the box.
+
+The 10 pixels of padding increases the height of the box to 220 pixels and the width to 320 pixels. Next, the 1-pixel thick border increases the height to 222 pixels and the width to 322 pixels.
+
+Under this box model, the border thickness and padding are added to the overall dimensions of the box. This makes it difficult to accurately size a box. Over time, this can also make all of a web page’s content difficult to position and manage.
+
+### Box Model: Content-Box
+
+Many properties in CSS have a default value and don’t have to be explicitly set in the stylesheet.
+
+The same can be said about the box model that browsers assume. In CSS, the `box-sizing` property controls the type of box model the browser should use when interpreting a web page.
+
+The default value of this property is `content-box`. This is the same box model that is affected by border thickness and padding.
+![[htmlcssdiagram_contentbox.svg|750]]
+
+### Box Model: Border-Box
+
+Fortunately, we can reset the entire box model and specify a new one: `border-box`.
+
+```css
+* {  
+	box-sizing: border-box;
+}
+```
+
+The code in the example above resets the box model to `border-box` for all HTML elements. This new box model avoids the dimensional issues that exist in the former box model you learned about.
+
+In this box model, the height and width of the box will remain fixed. The border thickness and padding will be included inside of the box, which means the overall dimensions of the box do not change.
+
+```html
+<h1>Hello World</h1>
+```
+
+```css
+* {
+	box-sizing: border-box;
+}
+h1 {
+	border: 1px dashed #4f768e;
+	height: 150px;
+	width: 200px;
+	padding: 20px;
+}
+```
+
+In the example above, the height of the box would remain at 150 pixels and the width would remain at 200 pixels. The border thickness and padding would remain entirely _inside_ of the box.
+
+![[htmlcss1-diagram__borderbox.svg|750]]
+
+# Display and Positioning
+
+### Position
+
+Take a look at the _block-level_ elements in the image below:
+
+![[htmlcssPosition-updated.webp|500]]
+
+Block-level elements like these boxes create a _block_ the full width of their parent elements, and they prevent other elements from appearing in the same horizontal space.
+
+Notice the block-level elements in the image above take up their own line of space and therefore don’t overlap each other. In the browser to the right, you can see block-level elements also consistently appear on the left side of the browser. This is the default _position_ for block-level elements.
+
+The default position of an element can be changed by setting its `position` property. The `position` property can take one of five values:
+
+- `static` - the default value (it does not need to be specified)
+- `relative`
+- `absolute`
+- `fixed`
+- `sticky`
+
+### Position: Relative
+
+One way to modify the default position of an element is by setting its `position`  property to `relative`.
+
+This value allows you to position an element _relative_ to its default static position on the web page.
+
+```css
+.green-box {
+	background-color: green;
+	position: relative;
+}
+```
+
+Although the code in the example above instructs the browser to expect a relative positioning of the `.green-box` element, it does not specify where the `.green-box` element should be positioned on the page. This is done by accompanying the `position` declaration with one or more of the following _offset properties_ that will move the element away from its default static position:
+
+- `top` - moves the element down from the top.
+- `bottom` - moves the element up from the bottom.
+- `left` - moves the element away from the left side (to the right).
+- `right` - moves the element away from the right side (to the left).
+
+You can specify values in pixels, ems, or percentages, among others, to dial in exactly how far you need the element to move. It’s also important to note that offset properties will not work if the element’s `position` property is the default `static`.
+
+```css
+.green-box {
+	background-color: green;
+	position: relative;
+	top: 50px;
+	left: 120px;
+}
+```
+
+In the example above, the element of `green-box` class will be moved down 50 pixels, and to the right 120 pixels, from its default static position. The image below displays the new position of the box.
+
+![Diagram of an element with relative position|500](https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Relative.png)
+
+Offsetting the relative element will not affect the positioning of other elements.
+
+### Position: Fixed
+
+When an element’s position is set to `absolute`, as in the last exercise, the element will scroll with the rest of the document when a user scrolls.
+
+We can _fix_ an element to a specific position on the page (regardless of user scrolling) by setting its position to `fixed`, and accompanying it with the familiar offset properties `top`, `bottom`, `left`, and `right`.
+
+```css
+.title {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+```
+
+In the example above, the `.title` element will remain fixed to its position no matter where the user scrolls on the page, like in the image below:
+
+![Diagram of position fixed|500](https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Fixed.gif)
+
+This technique is often used for navigation bars on a web page.
+
+### Z-Index
+
+When boxes on a web page have a combination of different positions, the boxes (and therefore, their content) can overlap with each other, making the content difficult to read or consume.
+
+```css
+.blue-box {
+	background-color: blue;
+}
+.green-box {
+	background-color: green;
+	position: relative;
+	top: -170px;
+	left: 170px;
+}
+```
+
+In the example above, the `.green-box` element overlaps on top of the `.blue-box` element.
+
+The `z-index` property controls how far back or how far forward an element should appear on the web page when elements overlap. This can be thought of as the _depth_ of elements, with deeper elements appearing behind shallower elements.
+
+The `z-index` property accepts integer values. Depending on their values, the integers instruct the browser on the order in which elements should be layered on the web page.
+
+```css
+.blue-box {
+	background-color: blue;
+	position: relative;
+	z-index: 1;
+}
+.green-box {
+	background-color: green;
+	position: relative;
+	top: -170px;
+	left: 170px;
+}
+```
+
+In the example above, we set the `.blue-box` position to `relative` and the z-index to 1. We changed position to `relative`, because the `z-index` property does _not_ work on static elements. The z-index of `1` moves the `.blue-box` element forward, because the `z-index` value has not been explicitly specified for the `.green-box` element, which means it has a default `z-index` value of 0. Take a look at the example image below:
+
+![Diagram of z-index|500](https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Z-index.png)
 

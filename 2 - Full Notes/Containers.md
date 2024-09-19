@@ -6,7 +6,7 @@ Tags: [[Linux]] [[OS]] [[Containers]]
 
 # Containers
 
-Containers are ==similar to VMs== but the major ==difference lies== in the fact that ==VMs simulate an== ==entire machine, but a container only simulates an application==. It contains everything that requires that the application requires for it to run. So it ==can run== on about just ==any computer== environment without having to add anything to that computer.
+Containers are ==similar to VMs== but the major ==difference lies== in the fact that ==VMs simulate an entire machine, but a container only simulates an application==. It contains everything that requires that the application requires for it to run. So it ==can run== on about just ==any computer== environment without having to add anything to that computer.
 
 The ==leading software== that is used to create, manage and run these containers is ==[Docker](https://www.docker.com/)==.
 
