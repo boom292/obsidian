@@ -24,7 +24,9 @@ A selector is used to target the specific HTML element(s) to be styled by the de
 In the previous lesson, you changed the color of a paragraph element.
 
 ```css
-p {  color: green;}
+p {
+	color: green;
+}
 ```
 
 This is an instance of using the type selector! The element type is `p`, which comes from the HTML `<p>` element.
@@ -41,7 +43,9 @@ Targeting all of the elements on the page has a few specific use cases, such as 
 The universal selector uses the `*` character in the same place where you specified the type selector in a ruleset, like so:
 
 ```css
-* {   font-family: Verdana;}
+* {
+	font-family: Verdana;
+}
 ```
 
 In the code above, every text element on the page will have its font changed to `Verdana`.
@@ -186,6 +190,7 @@ IDs are the most specific selector in CSS, followed by classes, and finally, typ
 h1 {
 	color: red;
 }
+
 .headline {
 	color: firebrick;
 }
@@ -564,6 +569,7 @@ When boxes on a web page have a combination of different positions, the boxes (a
 .blue-box {
 	background-color: blue;
 }
+
 .green-box {
 	background-color: green;
 	position: relative;
@@ -584,6 +590,7 @@ The `z-index` property accepts integer values. Depending on their values, the 
 	position: relative;
 	z-index: 1;
 }
+
 .green-box {
 	background-color: green;
 	position: relative;
@@ -595,4 +602,36 @@ The `z-index` property accepts integer values. Depending on their values, the 
 In the example above, we set the `.blue-box` position to `relative` and the z-index to 1. We changed position to `relative`, because the `z-index` property does _not_ work on static elements. The z-index of `1` moves the `.blue-box` element forward, because the `z-index` value has not been explicitly specified for the `.green-box` element, which means it has a default `z-index` value of 0. Take a look at the example image below:
 
 ![Diagram of z-index|500](https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Z-index.png)
+
+### Display: Inline-Block
+
+The third value for the `display` property is `inline-block`. Inline-block display combines features of both inline and block elements. Inline-block elements can appear next to each other and we can specify their dimensions using the `width` and `height` properties. Images are the best example of default inline-block elements.
+
+For example, the `<div>`s below will be displayed on the same line and with the specified dimensions:
+
+![inline block example|500](https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/display-inline-block.png)
+
+Let’s take a look at the code:
+
+```html
+<div class="rectangle">
+	<p>I’m a rectangle!</p>
+</div>
+<div class="rectangle">
+	<p>So am I!</p>
+</div>
+<div class="rectangle">
+	<p>Me three!</p>
+</div>
+```
+
+```css
+.rectangle {
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+}
+```
+
+There are three rectangular divs that each contain a paragraph of text. The `.rectangle` `<div>`s will all appear inline (provided there is enough space from left to right) with a width of 200 pixels and height of 300 pixels, even though the text inside of them may not require 200 pixels by 300 pixels of space.
 

@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS.md",
+                "file": "1 - Rough Notes/To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS.md",
+                "file": "1 - Rough Notes/To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS.md"
+                "file": "1 - Rough Notes/To-Do.md"
               }
             }
           }
@@ -204,10 +204,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "edff471df1275ebb",
+  "active": "04bef8d0a5a081fb",
   "lastOpenFiles": [
-    "htmlcssPosition-updated.webp",
     "CSS.md",
+    "htmlcssPosition-updated.webp",
     "htmlcss1-diagram__borderbox.svg",
     "htmlcssdiagram_contentbox.svg",
     "2 - Full Notes/SSH.md",
