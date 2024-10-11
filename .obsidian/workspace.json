@@ -21,19 +21,6 @@
             }
           },
           {
-            "id": "5210ba80d2b5a4fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Full Notes/Different Ways to Start a Program Automatically.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "04bef8d0a5a081fb",
             "type": "leaf",
             "state": {
@@ -47,7 +34,7 @@
             }
           },
           {
-            "id": "5606ee358bf3c580",
+            "id": "709e72facf3ba05c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,22 +45,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "edff471df1275ebb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,8 +157,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -206,27 +179,30 @@
   },
   "active": "04bef8d0a5a081fb",
   "lastOpenFiles": [
+    "2 - Full Notes/SSH.md",
+    "1 - Rough Notes/To-Do.md",
     "CSS.md",
-    "htmlcssPosition-updated.webp",
+    "CSS_Anatomy.svg",
     "htmlcss1-diagram__borderbox.svg",
     "htmlcssdiagram_contentbox.svg",
-    "2 - Full Notes/SSH.md",
+    "htmlcssPosition-updated.webp",
+    "inheritance_diagram.svg",
+    "2 - Full Notes/Event Loop In JavaScript.md",
+    "2 - Full Notes/JavaScript-Engine-Diagram.webp",
+    "2 - Full Notes/Disk Partitioning.md",
+    "2 - Full Notes/Different Ways to Start a Program Automatically.md",
     "2 - Full Notes/Kubernetes.md",
     "2 - Full Notes/Containers.md",
     "4 - Tags/Containers.md",
     "4 - Tags/Virtualization.md",
-    "1 - Rough Notes/To-Do.md",
     "EGC 211 Programming C++ Lab 4.md",
     "UML.png",
     "UML-class.png",
-    "2 - Full Notes/Disk Partitioning.md",
     "EGC 211 Programming C++ Lab 3.md",
-    "CSS_Anatomy.svg",
     "UML.png.crdownload",
     "UML",
     "Unconfirmed 394352.crdownload",
     "UML.jpeg",
-    "2 - Full Notes/Different Ways to Start a Program Automatically.md",
     "C++ Assignment 1 - C refresher - Calendar for Olympic Games.md",
     "2 - Full Notes/Compositing Window Manager.md",
     "4 - Tags/File System.md",
@@ -237,7 +213,6 @@
     "2 - Full Notes/Brute Force All Possible Subsets Using Bitmasks.md",
     "2 - Full Notes/BIOS.md",
     "2 - Full Notes/Display Manager.md",
-    "2 - Full Notes/Event Loop In JavaScript.md",
     "2 - Full Notes/Login Process of Linux.md",
     "2 - Full Notes/Modular Exponentiation.md",
     "2 - Full Notes/Network Transparency.md"
