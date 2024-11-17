@@ -52,6 +52,20 @@ usually the job of System 2. System 1 takes very less effort and almost instantl
 
 ## The Lazy Controller
 
+The author talks about how making small decisions while driving a walk or taking a stroll, exchanging pleasantries is done with little to no effort at all. But when
+our system 2 is faced with a difficulty, we stop what we are doing (or dedicate less effort / attention). If we try to do both things at once, the ability to do one of
+them will decrease significantly. Self-control and deliberate thought apparently draw some limited budget of effort.
+
+For must of us, most of the time, the maintenance of a coherent train of thought and the occasional thought and engagement in effortful thinking also require
+self-control. The state of "flow" on the other hand--people sometimes expend considerable effort for long periods of time without having to exert
+willpower.  People who experience this flow describe it as "a state of effortless concentration so deep that they lose their sense of time, of themselves, of their
+problems".
+
+In a state of flow, however, maintaining focused attention on these absorbing activities requires no exertion of self-control, thereby freeing resources to be directed
+to the task at hand.
+
+### The Busy and Depleted System 2
+
 
 
 # References

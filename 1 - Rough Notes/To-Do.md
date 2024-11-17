@@ -4,11 +4,10 @@ Status: #ToDo
 
 # To-Do
 
-- Write about `wmname` for the java JVM issue where it doesn't render based on the window manager
+- Write about disk partitioning
 - Write about the crlf issue with scripts, the `dos2unix` package
 - Write about bluetooth conf in arch linux
 - write about makefile
-- create a program to check key presses and act accordingly (sxhkd is not enough)
 - create a program to notify battery and stuff using zenity
 - look at dwm (config.h) key bindings, possibly set volume controls to a script rather than running the bash command directly
 - look into [this](https://kineticlabs.com/blog/what-are-via-and-qmk-for-mechanical-keyboards) for making your keyboard more usable and better.
