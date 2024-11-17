@@ -1,88 +1,37 @@
 {
   "main": {
-    "id": "ac4c74e17de66d5e",
+    "id": "0691e02cbe34f2f4",
     "type": "split",
     "children": [
       {
-        "id": "98d73a69c6d38f5d",
+        "id": "823bb7e0e026123d",
         "type": "tabs",
         "children": [
           {
-            "id": "2c07ca60c78a194f",
+            "id": "dd94644fa4e8de18",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Full Notes/Disk Partitioning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Disk Partitioning"
-            }
-          },
-          {
-            "id": "a2ea2cd8f57ea46a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regex.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Regex"
-            }
-          },
-          {
-            "id": "b68e713efe838bf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Full Notes/CSS/CSS-helloworld.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CSS-helloworld"
-            }
-          },
-          {
-            "id": "709e72facf3ba05c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Source Material/Books/Thinking Fast and Slow.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Thinking Fast and Slow"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f63d329286a61321",
+    "id": "18c409573b4adb4d",
     "type": "split",
     "children": [
       {
-        "id": "faf667dad3a53528",
+        "id": "2b86d76cface6b53",
         "type": "tabs",
         "children": [
           {
-            "id": "ac23295a677ae396",
+            "id": "f545512fd703f6cb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -94,17 +43,7 @@
             }
           },
           {
-            "id": "d154a86c5ac1823d",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "2b2fbb2d84ed6e66",
+            "id": "4d9217c2c40f2b53",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -119,28 +58,37 @@
               "icon": "lucide-search",
               "title": "Search"
             }
+          },
+          {
+            "id": "3580d71b5b1cb5ab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300
   },
   "right": {
-    "id": "9398d270cd347e03",
+    "id": "7078af4110efb048",
     "type": "split",
     "children": [
       {
-        "id": "acd358254b7a734d",
+        "id": "67eb939b95480274",
         "type": "tabs",
         "children": [
           {
-            "id": "9307d2df7599cf99",
+            "id": "054b863f6323907c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Full Notes/CSS/CSS-helloworld.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,25 +98,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CSS-helloworld"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "d27fed8f584b65c3",
+            "id": "c2b4a9a82edc657b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Full Notes/CSS/CSS-helloworld.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CSS-helloworld"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "6c5e25685fd8439a",
+            "id": "dd193c705097e00a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -181,23 +128,21 @@
             }
           },
           {
-            "id": "5cb98b923e4ce422",
+            "id": "3a3c181ab50c6142",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Regex.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Regex"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,55 +152,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
       "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
-      "random-note:Open random note": false
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "a2ea2cd8f57ea46a",
+  "active": "dd94644fa4e8de18",
   "lastOpenFiles": [
-    "16th Nov '24.md",
-    "Regex.md",
-    "4 - Tags/Systemd.md",
-    "2 - Full Notes/Disk Partitioning.md",
-    "4 - Tags/JavaScript.md",
-    "4 - Tags/Java.md",
-    "4 - Tags/CRLS.md",
-    "4 - Tags/Python.md",
-    "4 - Tags/Programming languages.md",
-    "2 - Full Notes/CSS/CSS-helloworld.md",
-    "Untitled.canvas",
-    "2 - Full Notes/Different Ways to Start a Program Automatically.md",
-    "202411160911.md",
-    "1 - Rough Notes/To-Do.md",
-    "2 - Full Notes/WMNAME issue in java.md",
-    "3 - Source Material/Books/Thinking Fast and Slow.md",
-    "2 - Full Notes/SSH.md",
-    "2 - Full Notes/CSS/htmlcssdiagram_contentbox.svg",
-    "2 - Full Notes/CSS/htmlcssPosition-updated.webp",
-    "2 - Full Notes/CSS/htmlcss1-diagram__borderbox.svg",
-    "2 - Full Notes/CSS/CSS_Anatomy.svg",
-    "2 - Full Notes/CSS",
-    "Untitled",
-    "CSS.md",
-    "CSS_Anatomy.svg",
-    "htmlcss1-diagram__borderbox.svg",
-    "htmlcssdiagram_contentbox.svg",
-    "htmlcssPosition-updated.webp",
-    "inheritance_diagram.svg",
-    "2 - Full Notes/Event Loop In JavaScript.md",
-    "2 - Full Notes/JavaScript-Engine-Diagram.webp",
-    "2 - Full Notes/Kubernetes.md",
-    "2 - Full Notes/Containers.md",
-    "4 - Tags/Containers.md",
-    "4 - Tags/Virtualization.md",
-    "EGC 211 Programming C++ Lab 4.md",
-    "EGC 211 Programming C++ Lab 3.md",
-    "UML.png.crdownload",
-    "UML",
-    "Unconfirmed 394352.crdownload",
-    "C++ Assignment 1 - C refresher - Calendar for Olympic Games.md",
-    "2 - Full Notes/Compositing Window Manager.md"
+    "1 - Rough Notes/To-Do.md"
   ]
 }

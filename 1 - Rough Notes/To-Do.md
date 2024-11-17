@@ -10,6 +10,5 @@ Status: #ToDo
 - write about makefile
 - create a program to notify battery and stuff using zenity
 - look at dwm (config.h) key bindings, possibly set volume controls to a script rather than running the bash command directly
-- look into [this](https://kineticlabs.com/blog/what-are-via-and-qmk-for-mechanical-keyboards) for making your keyboard more usable and better.
 
 # References
