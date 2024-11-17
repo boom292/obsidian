@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -201,10 +201,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Rough Notes/To-Do.md"
+                "file": "2 - Full Notes/QMK.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of To-Do"
+              "title": "Outline of QMK"
             }
           }
         ],
@@ -212,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,11 +228,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "04bef8d0a5a081fb",
+  "active": "942ce2c4e1708925",
   "lastOpenFiles": [
+    "1 - Rough Notes/To-Do.md",
     "2 - Full Notes/QMK.md",
     "4 - Tags/Keyboards.md",
-    "1 - Rough Notes/To-Do.md",
     "3 - Source Material/Books/Thinking Fast and Slow.md",
     "2 - Full Notes/CSS/CSS-helloworld.md",
     "2 - Full Notes/SSH.md",
