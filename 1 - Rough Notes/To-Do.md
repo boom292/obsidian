@@ -10,5 +10,6 @@ Status: #ToDo
 - write about makefile
 - create a program to notify battery and stuff using zenity
 - look at dwm (config.h) key bindings, possibly set volume controls to a script rather than running the bash command directly
-
-# References
+- make a file explorer
+- make a portfolio website
+- manage the taskbar
