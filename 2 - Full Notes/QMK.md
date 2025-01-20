@@ -1,6 +1,6 @@
 16th Nov '24, 16:47pm
 
-Status: #InProgress #ProperNotes 
+Status: #Completed #ProperNotes 
 
 Tags: [[Keyboards]]
 

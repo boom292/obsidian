@@ -1,6 +1,6 @@
 21st Dec '24, 17:42pm
 
-Status: #InProgress #ProperNotes 
+Status: #Completed #ProperNotes 
 
 Tags: [[Programming languages]] [[JavaScript]] [[Web Dev]]
 
