@@ -144,3 +144,4 @@ Here’s a common UEFI boot process for a dual-boot Linux and Windows setup:
 
 # References
 Chatgpt
+Google
