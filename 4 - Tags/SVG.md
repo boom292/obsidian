@@ -1,6 +1,6 @@
 20th Jan '25, 11:58am
 
-Status: #ProperNotes #InProgress 
+Status: #ProperNotes #Completed 
 
 Tags: [[Image Format]] [[Web Dev]]
 
@@ -68,8 +68,6 @@ Inlining SVGs allows you to unlock their full potential, but it also comes with 
 Some of the drawbacks of inlining SVG code can be avoided once you’ve learned a front-end JavaScript library like React, or a build-tool like webpack. We aren’t quite ready to get into those yet, so just keep that in the back of your mind.
 
 For now, just do whichever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak the SVG code alongside your HTML.
-
-
 
 # References
 https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-svg

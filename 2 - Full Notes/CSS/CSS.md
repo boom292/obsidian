@@ -15,6 +15,28 @@ When linking an HTML file and a CSS file together, the `<link>` element will l
 <link href='https://www.codecademy.com/stylesheets/style.css' rel='stylesheet'>
 ```
 
+## CSS Units
+
+### Absolute units
+
+Absolute units are those that are always the same in any context. `px` is an absolute unit because the size of a pixel doesn’t change relative to anything else on the page. In fact, `px` is the only absolute unit you should be using for web projects. The rest of them make more sense in a print setting because they are related to physical units such as `in` (inch) and `cm` (centimeter).
+
+### Relative units
+
+Relative units are units that can change based on their context. There are several of them that you are likely to encounter and want to use.
+
+#### em and rem
+
+`em` and `rem` both refer to a font size, though they are often used to define other sizes in CSS. You’ll see both of them often so we’re going to explain both, but as a rule-of-thumb, prefer `rem`.
+
+Using a relative size like `rem` to define font sizes across your website _is_ recommended. Many browsers allow users to change the base font-size to increase readability. If at all possible, it is advisable to respect a user’s wishes regarding font size. You’ll learn more about this from the reading assignments.
+
+#### Viewport units
+
+The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` is equal to `1%` of the viewport height and `1vw` is equal to `1%` of the viewport width. These can be useful any time you want something to be sized relative to the viewport, examples including full-height heroes, full-screen app-like interfaces.
+
+
+
 ## Selectors
 ### Type
 Remember that _declarations_ are a fundamental part of CSS because they apply a style to a selected element. But how do you decide which elements will get the style? With a _selector_.
