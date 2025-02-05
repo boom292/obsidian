@@ -2,6 +2,8 @@
 
 Status: #InProgress #ProperNotes
 
+Tags: [[Pyscology]] [[SPIT]]
+
 # Chapter 1: The Information Economy
 
 The author talks about the how the old economic laws still hold in a world where technology is improving frenetically.
@@ -94,3 +96,4 @@ Another method for achieving critical mass is to assemble a powerful group of st
 
 >Having suppliers of complements aboard makes the overall system more attractive. And having competitors aboard can give today's and tomorrow's customers the assurance that they will not be exploited once they are locked in.
 
+>If you own valuable intellectual property but need to gain critical mass, you must decide whether to promote your technology unilaterally, in the hope that it will become a de facto standard that you can tightly control, or to rfiake various "openness" commitments to help achieve a critical mass.
