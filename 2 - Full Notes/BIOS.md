@@ -68,6 +68,7 @@ The BIOS has tried to boot the computer off of the disk left in the drive. Since
 - [[EFI]]
 - [[Configuring BIOS or CMOS]]
 - [[Disk Partitioning]]
+- [[File System]]
 
 # Terms & Terminology
 
