@@ -4,12 +4,12 @@ Status: #ToDo
 
 # To-Do
 
-- Write about disk partitioning
+- also you don't know anything about the arch side of your computer, like what's running and blah blah, look into this.
 - Write about the crlf issue with scripts, the `dos2unix` package
 - Write about bluetooth conf in arch linux
 - write about makefile
-- create a program to notify battery and stuff using zenity
-- look at dwm (config.h) key bindings, possibly set volume controls to a script rather than running the bash command directly
+- create a program to change modes using asusctl
+- create a program for multi monitor set up
 - make a file explorer
 - make a portfolio website
 - manage the taskbar

@@ -2,7 +2,7 @@
 
 Status: #InProgress #ProperNotes 
 
-Tags: [[Boot Up]] [[OS]]
+Tags: [[Boot Up]] [[OS]] [[File System]]
 
 # EFI
 
@@ -42,7 +42,17 @@ This phase involves initializing the firmware and hardware required to start the
 
 Once the hardware and firmware are initialized, the UEFI Boot Manager takes over to locate and execute the bootloader.
 
-#### **a. Locating the Boot Configuration**
+#### a. - **Checking the Partition Table:**
+- UEFI does **not** use the traditional MBR boot sector method.
+- Instead, it directly reads the partition table from the storage device to determine whether it follows the **GPT** or **MBR** scheme.
+- The key difference:
+	- **GPT** has a Protective MBR (first sector) and a GUID Partition Table structure.
+    - **MBR** has a traditional partition table in the first sector (sector 0).
+- **Deciding the Boot Mode:**
+    - If UEFI finds a **GPT disk**, it expects an **EFI System Partition (ESP)** containing a bootloader (`.efi` file).
+    - If it detects an **MBR disk**, it assumes the system must boot in **Legacy (BIOS) mode**, since MBR uses a boot sector and chain-loading process.
+
+#### **b. Locating the Boot Configuration**
 
 - The UEFI firmware checks the **EFI System Partition (ESP)** on the boot disk.
     - ESP is a special partition formatted with a FAT32 filesystem.
@@ -51,13 +61,13 @@ Once the hardware and firmware are initialized, the UEFI Boot Manager takes over
         - `/EFI/Boot/Bootx64.efi` (default bootloader for 64-bit systems).
         - `/EFI/<vendor>/grubx64.efi`, `/EFI/Microsoft/Boot/bootmgfw.efi`, etc.
 
-#### **b. Boot Order**
+#### **c. Boot Order**
 
 - The firmware uses the boot order defined in **NVRAM** (non-volatile memory) to determine which UEFI application to run first.
     - Example boot entries might include GRUB, Windows Boot Manager, or Linux kernel bootloaders.
     - You can view and modify these entries using `efibootmgr` in Linux or UEFI setup tools.
 
-#### **c. Executing the Bootloader**
+#### **d. Executing the Bootloader**
 
 - The UEFI Boot Manager launches the specified bootloader or application (`.efi` file) from the ESP.
 
@@ -116,14 +126,14 @@ Once the kernel is loaded, the operating system begins its startup process.
 
 ### **Comparison to Legacy BIOS**
 
-|Feature|Legacy BIOS|UEFI|
-|---|---|---|
-|Boot Mode|MBR (Master Boot Record)|GPT (GUID Partition Table)|
-|Storage Limit|2 TB|9.4 Zettabytes|
-|Bootloader Location|Fixed disk sectors|EFI System Partition (ESP)|
-|Secure Boot|Not supported|Supported|
-|Driver Support|Embedded in BIOS|Modular, supports drivers on ESP|
-|Boot Performance|Sequential hardware initialization|Parallel hardware initialization|
+| Feature             | Legacy BIOS                        | UEFI                             |
+| ------------------- | ---------------------------------- | -------------------------------- |
+| Boot Mode           | MBR (Master Boot Record)           | GPT (GUID Partition Table)       |
+| Storage Limit       | 2 TB                               | 9.4 Zettabytes                   |
+| Bootloader Location | Fixed disk sectors                 | EFI System Partition (ESP)       |
+| Secure Boot         | Not supported                      | Supported                        |
+| Driver Support      | Embedded in BIOS                   | Modular, supports drivers on ESP |
+| Boot Performance    | Sequential hardware initialization | Parallel hardware initialization |
 
 ---
 

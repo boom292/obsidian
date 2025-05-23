@@ -35,6 +35,14 @@ Using a relative size like `rem` to define font sizes across your website _is
 
 The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` is equal to `1%` of the viewport height and `1vw` is equal to `1%` of the viewport width. These can be useful any time you want something to be sized relative to the viewport, examples including full-height heroes, full-screen app-like interfaces.
 
+## Custom Properties
+
+Its easier to define properties using variables that can be mentioned multiple times in multiple places. This allows us to have consistent value across by just changing one value and also enables us to have themes in our website.
+
+Custom properties are defined just like normal properties but by convention they start with a double hyphen. Their scope is all their child elements. Its preferable to define global variables in the `:root` class since all other classes are derived from this and this is the highest of them all.
+
+To use these variables we just write `var(--variable-name)` in place of the value we want.
+
 
 
 ## Selectors
@@ -526,6 +534,10 @@ The default position of an element can be changed by setting its `position` pr
 - `fixed`
 - `sticky`
 
+### Position: Static
+
+This is the default position of the element. Top, left, right, bottom do not affect the position of the element. Children of the element with display static that have display absolute ignore this parent for positioning.
+
 ### Position: Relative
 
 One way to modify the default position of an element is by setting its `position`  property to `relative`.
@@ -562,6 +574,10 @@ In the example above, the element of `green-box` class will be moved down 50 p
 ![Diagram of an element with relative position|500](https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Relative.png)
 
 Offsetting the relative element will not affect the positioning of other elements.
+
+### Position: Absolute
+
+When an element is set to static, it's top, left, right, bottom are all going to be measured with respect to the parent that has either relative, sticky, absolute or fixed display positioning. Or else child ignores the parent's positioning.
 
 ### Position: Fixed
 
