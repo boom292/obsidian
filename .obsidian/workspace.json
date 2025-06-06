@@ -11,10 +11,24 @@
             "id": "deae2bba84723c73",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1 - Rough Notes/To-Do.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "To-Do"
             }
           }
         ]
@@ -161,7 +175,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b29d29ad37b70499",
+  "active": "deae2bba84723c73",
   "lastOpenFiles": [
     "Untitled.md"
   ]
