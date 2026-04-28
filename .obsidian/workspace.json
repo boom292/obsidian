@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Full Notes/Topological Sorting.md",
+                "file": "1 - Rough Notes/To-Do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Topological Sorting"
+              "title": "To-Do"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Full Notes/Topological Sorting.md",
+                "file": "1 - Rough Notes/To-Do.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Topological Sorting"
+              "title": "Backlinks for To-Do"
             }
           },
           {
@@ -183,8 +183,11 @@
   },
   "active": "02917f34a74b4689",
   "lastOpenFiles": [
-    "4 - Tags/Compi-Coding.md",
+    "1 - Rough Notes/Further Research.md",
+    "1 - Rough Notes/To-Do.md",
+    "5 - Templates/Full Note.md",
     "2 - Full Notes/Topological Sorting.md",
+    "4 - Tags/Compi-Coding.md",
     "4 - Tags/Undirected Graph.md",
     "4 - Tags/Graphs.md",
     "2 - Full Notes/Introduction to Quant Finance.md",
@@ -192,13 +195,10 @@
     "2 - Full Notes/PictureMe!.md",
     "4 - Tags/Aesthetics.md",
     "3 - Source Material/Books/Thinking Fast and Slow.md",
-    "1 - Rough Notes/To-Do.md",
-    "1 - Rough Notes/Further Research.md",
     "IMT2023089.md",
     "IMT2023089.png",
     "Pasted image 20250525085550.png",
     "2 - Full Notes/javascript/hello_js.md",
-    "5 - Templates/Full Note.md",
     "2 - Full Notes/javascript/intermediate-promises.md",
     "2 - Full Notes/javascript/intermediate-objects.md",
     "2 - Full Notes/javascript/intermediate-modules-ES6.md",
