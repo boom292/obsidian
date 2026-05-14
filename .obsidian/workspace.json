@@ -50,6 +50,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "currentTab": 1
       }
     ],
@@ -82,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "x11",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +104,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -187,6 +189,7 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -195,8 +198,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ac6bd64bbcfdd3f",
+  "active": "5255c9298d6e7494",
   "lastOpenFiles": [
+    "2 - Full Notes/javascript/intermediate-into-to-fetch-api.md",
+    "2 - Full Notes/javascript/intermediate-errors-and-error-handling.md",
+    "2 - Full Notes/javascript/intermediate-async.md",
+    "2 - Full Notes/javascript/hello_js.md",
+    "2 - Full Notes/javascript/intermediate-modules.md",
+    "1 - Rough Notes/To-Do.md",
     "2 - Full Notes/Network Transparency.md",
     "2 - Full Notes/Details on Web Domains.md",
     "2 - Full Notes/Introduction to Quant Finance.md",
