@@ -1,3 +1,9 @@
+14th May '26, 09:26pm (Incorrect)
+
+Status: #Completed #ProperNotes
+
+Tags: [[JavaScript]] [[Web Dev]] [[Programming languages]]
+
 # JavaScript Error Types
 
 Now that you can identify the type of error from an error stack trace, you might be wondering what the different types of errors mean.

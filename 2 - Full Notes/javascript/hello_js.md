@@ -1,3 +1,9 @@
+14th May '26, 09:26pm (Incorrect)
+
+Status: #Completed #ProperNotes
+
+Tags: [[JavaScript]] [[Web Dev]] [[Programming languages]]
+
 # Introduction
 
 console.log(); is used to print anything to the console, kinda like print statement if you think about it.

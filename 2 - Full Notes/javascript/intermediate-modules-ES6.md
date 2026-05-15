@@ -1,3 +1,9 @@
+14th May '26, 09:26pm (Incorrect)
+
+Status: #Completed #ProperNotes
+
+Tags: [[JavaScript]] [[Web Dev]] [[Programming languages]]
+
 # Introduction to ES6 Modules
 
 In ES6 syntax, to export a function or a variable we use the export keyword followed by the function or variable name.

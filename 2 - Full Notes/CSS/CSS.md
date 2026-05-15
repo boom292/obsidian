@@ -1,3 +1,9 @@
+14th May '26, 09:26pm (Incorrect)
+
+Status: #Completed #ProperNotes
+
+Tags: [[GUI]] [[Web Dev]] [[Programming languages]]
+
 ## CSS Anatomy
 The diagram below shows two different methods, or _syntaxes_, for writing CSS code. The first syntax shows CSS applied as a _ruleset_, while the second shows it written as an _inline style_. Two different methods of writing CSS may seem a bit intimidating at first, but it’s not as bad as it looks!
 ![[CSS_Anatomy.svg|700]]

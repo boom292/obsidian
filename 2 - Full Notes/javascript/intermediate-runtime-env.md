@@ -1,3 +1,9 @@
+14th May '26, 09:26pm (Incorrect)
+
+Status: #Completed #ProperNotes
+
+Tags: [[JavaScript]] [[Web Dev]] [[Programming languages]]
+
 A runtime environment is where your program will be executed. JavaScript code may be executed in one of two runtime environments:
 
 1) a browser’s runtime environment
