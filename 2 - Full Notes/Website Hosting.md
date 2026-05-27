@@ -88,7 +88,5 @@ Just bear with the explanation below, we'll dumb it down after this.
     - **Dynamic Parts:** When you need a "brain" (like a login or an API), Vercel spins up a tiny, temporary container (a Lambda function) to run that specific piece of code, then shuts it down immediately.
 - **The Difference:** While WordPress has a server running 24/7, Vercel’s "servers" only exist for the milliseconds it takes to process your request. This is why it scales almost infinitely but requires a different way of thinking about databases (usually requiring "Serverless Databases" like PlanetScale or Neon).
 
-
-
 # References
 My curiosity aided by Google, Gemini.
